@@ -66,7 +66,7 @@ for dir in modes workflows presets tutorials playbooks; do
 done
 
 # Write install marker
-echo "version=0.1.0" > "$CLAUDE_DIR/$OPSLAYER_MARKER"
+echo "version=0.2.0" > "$CLAUDE_DIR/$OPSLAYER_MARKER"
 echo "installed_at=$(date -Iseconds)" >> "$CLAUDE_DIR/$OPSLAYER_MARKER"
 
 # Step 5: Summary

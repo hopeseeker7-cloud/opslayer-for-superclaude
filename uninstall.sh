@@ -22,6 +22,9 @@ OPSLAYER_FILES=(
     "WORKFLOW_new_project.md"
     "PRESET_korean_dev.md"
     "TUTORIAL_first_project.md"
+    "PLAYBOOK_solo_saas.md"
+    "PLAYBOOK_trading_system.md"
+    "PLAYBOOK_3ai_cross_review.md"
 )
 
 echo "The following OpsLayer files will be removed:"

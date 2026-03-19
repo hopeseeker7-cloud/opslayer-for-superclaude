@@ -58,21 +58,11 @@ install_file() {
     fi
 }
 
-# Install free extensions
-for f in "$SCRIPT_DIR"/free/modes/*.md; do
-    [ -f "$f" ] && install_file "$f"
-done
-
-for f in "$SCRIPT_DIR"/free/workflows/*.md; do
-    [ -f "$f" ] && install_file "$f"
-done
-
-for f in "$SCRIPT_DIR"/free/presets/*.md; do
-    [ -f "$f" ] && install_file "$f"
-done
-
-for f in "$SCRIPT_DIR"/free/tutorials/*.md; do
-    [ -f "$f" ] && install_file "$f"
+# Install extensions
+for dir in modes workflows presets tutorials playbooks; do
+    for f in "$SCRIPT_DIR"/$dir/*.md; do
+        [ -f "$f" ] && install_file "$f"
+    done
 done
 
 # Write install marker

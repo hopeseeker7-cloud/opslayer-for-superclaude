@@ -1,6 +1,6 @@
 # OpsLayer for SuperClaude
 
-> Battle-tested modes, workflows, and playbooks for SuperClaude power users.
+> Battle-tested modes, workflows, and playbooks for SuperClaude — fully open-source.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Requires: SuperClaude 4.0+](https://img.shields.io/badge/Requires-SuperClaude%204.0%2B-purple.svg)](https://github.com/SuperClaude-Org/SuperClaude_Framework)
@@ -12,22 +12,11 @@
 
 ## What is OpsLayer?
 
-**OpsLayer** adds production-grade extensions to your SuperClaude installation: new operational modes, project workflows, and environment presets — all built from running 10+ real AI projects.
+**OpsLayer** adds production-grade extensions to your SuperClaude installation: operational modes, project workflows, environment presets, and complete project playbooks — all built from running 10+ real AI projects.
 
 SuperClaude gives you the foundation. OpsLayer gives you the field-tested playbook.
 
----
-
-## The Problem
-
-SuperClaude is a great framework, but real projects expose gaps:
-
-| Challenge | Without OpsLayer | With OpsLayer |
-|-----------|-----------------|---------------|
-| Multi-AI coordination | Manually switch between Claude, GPT, Gemini | `3AI Orchestration` mode — parallel fan-out with role assignments |
-| Project kickoff | Ad-hoc, inconsistent starts | `New Project Protocol` — 9-step ontology-first workflow |
-| Scope creep | Features balloon past MVP | `Ship Fast` mode — MVP guardrails enforced |
-| Korean dev environment | English-only defaults | `Korean Dev` preset — optimized for Korean APIs & communities |
+Everything is open-source. No paywalls, no gated features.
 
 ---
 
@@ -58,36 +47,44 @@ curl -sL https://raw.githubusercontent.com/hopeseeker7-cloud/opslayer-for-superc
 
 ---
 
-## Free Extensions (MIT License)
+## Extensions
 
-| Extension | Type | Description |
-|-----------|------|-------------|
-| **3AI Orchestration** | Mode | Run Claude + GPT + Gemini in parallel with assigned roles. Fan out research, converge on decisions. |
-| **Ship Fast** | Mode | MVP-focused mode. Scope discipline enforced. Build only what ships. No feature creep. |
-| **New Project Protocol** | Workflow | 9-step ontology-first project start: define root case, entities, hard rules, and agent routing before writing any code. |
-| **Korean Dev Preset** | Preset | Korean language prompts, Korean public API references, Korean community launch templates. |
-| **First Project Tutorial** | Tutorial | Step-by-step guide: your first project with SuperClaude + OpsLayer. |
+### Modes
 
-All free extensions are fully functional. No crippled features.
+| Extension | Description |
+|-----------|-------------|
+| **3AI Orchestration** | Run Claude + GPT + Gemini in parallel with assigned roles. Fan out research, converge on decisions. |
+| **Ship Fast** | MVP-focused mode. Scope discipline enforced. Build only what ships. No feature creep. |
 
----
+### Workflows
 
-## Premium: OpsLayer Playbooks — Coming Soon
+| Extension | Description |
+|-----------|-------------|
+| **New Project Protocol** | 9-step ontology-first project start: define root case, entities, hard rules, and agent routing before writing any code. |
 
-Free extensions are individual tools. **Playbooks are complete project recipes** — they chain tools together into end-to-end workflows tested on real production projects.
+### Presets
 
-| Playbook | What You Get |
+| Extension | Description |
+|-----------|-------------|
+| **Korean Dev** | Korean language prompts, Korean public API references, Korean community launch templates. |
+
+### Playbooks
+
+Complete project recipes — end-to-end workflows tested on real production projects.
+
+| Playbook | Description |
 |----------|-------------|
 | **Solo SaaS Launch** | Full workflow from idea validation to production launch for solo founders. Ontology design, MVP scoping, 3-AI review, deployment checklist. |
 | **Trading System Build** | Complete guide for automated trading systems: backtesting setup, paper trading validation, live deploy safety gates, risk monitoring. |
 | **3-AI Cross-Review** | Production-grade 3-AI collaboration: Claude implements, GPT audits structure, Gemini reviews UX. Includes prompt templates and review checklists. |
 
-**Also included:**
-- 2 sanitized real-world project examples (GEO-SEO tool, trading system)
-- Monthly updates with new extensions and playbook revisions
-- Setup support via email
+### Tutorials & Examples
 
-**Coming soon at $19 launch price.** Star the repo to get notified.
+| Resource | Description |
+|----------|-------------|
+| **First Project Tutorial** | Step-by-step guide: your first project with SuperClaude + OpsLayer. |
+| **3-AI Session Example** | Real example: picking the fastest product from 41 ideas using 3-AI consensus. |
+| **New Project Example** | Real example: GEO-SEO tool (SearchLens) built using the protocol. |
 
 ---
 
@@ -118,6 +115,19 @@ OpsLayer files install alongside SuperClaude. Nothing is overwritten.
 
 ---
 
+## Future Directions
+
+OpsLayer is open-source and will stay that way. Potential future additions:
+
+- **Industry Packs** — domain-specific playbooks (fintech, e-commerce, healthcare)
+- **Hosted Tooling** — web-based orchestration dashboard for multi-AI workflows
+- **Advanced Orchestration** — automated 3-AI pipelines with CI/CD integration
+- **Setup Support & Consulting** — hands-on help for teams adopting multi-AI workflows
+
+Have ideas? [Open an issue](https://github.com/hopeseeker7-cloud/opslayer-for-superclaude/issues) or star the repo.
+
+---
+
 ## FAQ
 
 **Is this the official SuperClaude?**
@@ -126,22 +136,23 @@ No. OpsLayer is an independent add-on by a SuperClaude power user.
 **Will this break my SuperClaude setup?**
 No. OpsLayer only adds new files. Your existing config is backed up and never modified.
 
-**Can I use just the free tier?**
-Yes. Free extensions are complete and fully functional.
+**Do I need GPT/Gemini API keys for 3AI mode?**
+The 3AI Orchestration mode works with Codex CLI (GPT) and Gemini CLI. You need those CLIs installed separately if you want multi-AI coordination.
 
 **What if I uninstall?**
 Run the uninstall script. It removes only OpsLayer files and restores your backup.
 
-**Do I need GPT/Gemini API keys for 3AI mode?**
-The 3AI Orchestration mode works with Codex CLI (GPT) and Gemini CLI. You need those CLIs installed separately if you want multi-AI coordination.
+---
+
+## Contributing
+
+Contributions welcome. If you've built modes, workflows, or playbooks on top of SuperClaude, consider submitting a PR.
 
 ---
 
 ## License
 
-Free extensions: [MIT License](LICENSE)
-
-Premium playbooks: Commercial license (coming soon).
+[MIT License](LICENSE) — everything in this repo.
 
 See [NOTICE](NOTICE) for upstream attribution.
 

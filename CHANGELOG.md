@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.2.0] - 2026-03-19
+
+### Changed
+- **Full open-source release** — removed free/premium boundary, everything is MIT
+- Restructured repo: `free/` → `modes/`, `workflows/`, `presets/`, `tutorials/`
+- README rewritten for open-source positioning
+- LICENSE simplified (removed commercial license note)
+- install.sh updated for new directory structure
+
+### Added
+- PLAYBOOK_solo_saas.md — complete solo SaaS launch workflow
+- PLAYBOOK_trading_system.md — automated trading system build guide with safety gates
+- PLAYBOOK_3ai_cross_review.md — structured multi-AI collaboration patterns
+- Contributing section in README
+- Future Directions section in README
+
+### Removed
+- Premium/paid tier references
+- Gumroad integration
+- Commercial license language
+
 ## [0.1.0] - 2026-03-17
 
 ### Added

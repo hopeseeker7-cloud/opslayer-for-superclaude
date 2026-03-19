@@ -129,4 +129,4 @@ After launch, exit Ship Fast mode and plan v0.2 based on real usage data.
 
 - Try the **3AI Orchestration** mode for a project that needs multiple perspectives
 - Explore SuperClaude's built-in modes: Brainstorming, Introspection, Token Efficiency
-- For advanced workflows, check out [OpsLayer Premium Playbooks](https://gumroad.com/l/opslayer)
+- For advanced workflows, check out the playbooks: Solo SaaS Launch, Trading System Build, 3-AI Cross-Review

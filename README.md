@@ -72,7 +72,7 @@ All free extensions are fully functional. No crippled features.
 
 ---
 
-## Premium: OpsLayer Playbooks ($19)
+## Premium: OpsLayer Playbooks — Coming Soon
 
 Free extensions are individual tools. **Playbooks are complete project recipes** — they chain tools together into end-to-end workflows tested on real production projects.
 
@@ -87,7 +87,7 @@ Free extensions are individual tools. **Playbooks are complete project recipes**
 - Monthly updates with new extensions and playbook revisions
 - Setup support via email
 
-**[Get OpsLayer Playbooks — $19](https://gumroad.com/l/opslayer)** (launch price)
+**Coming soon at $19 launch price.** Star the repo to get notified.
 
 ---
 
@@ -141,7 +141,7 @@ The 3AI Orchestration mode works with Codex CLI (GPT) and Gemini CLI. You need t
 
 Free extensions: [MIT License](LICENSE)
 
-Premium playbooks: Commercial license (included with purchase).
+Premium playbooks: Commercial license (coming soon).
 
 See [NOTICE](NOTICE) for upstream attribution.
 

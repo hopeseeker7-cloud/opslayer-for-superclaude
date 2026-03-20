@@ -1,4 +1,4 @@
-# Example: 3AI Orchestration Session
+# Example: 3-AI Orchestration Session
 
 This example shows a real 3-AI session for deciding the fastest product to build from a list of ideas.
 

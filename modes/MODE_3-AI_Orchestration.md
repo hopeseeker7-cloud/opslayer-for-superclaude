@@ -1,4 +1,4 @@
-# 3AI Orchestration Mode
+# 3-AI Orchestration Mode
 
 **Purpose**: Parallel multi-AI coordination — fan out tasks to Claude, GPT, and Gemini with assigned roles, then converge on decisions.
 
@@ -33,7 +33,7 @@ Each AI has a default role. Override per task as needed.
 
 ## Fan-Out Pattern
 
-When activating 3AI mode, follow this sequence:
+When activating 3-AI mode, follow this sequence:
 
 ### Step 1: Define the Question
 State the question or decision clearly in one sentence.
@@ -89,7 +89,7 @@ After all results are in:
 [yes/no — if yes, what Human needs to decide]
 ```
 
-## When NOT to Use 3AI
+## When NOT to Use 3-AI
 
 - Simple bug fixes (Claude alone)
 - Formatting/style changes (Claude alone)
@@ -98,7 +98,7 @@ After all results are in:
 
 ## Cost Awareness
 
-Each AI call costs tokens/credits. Use 3AI for decisions that justify the cost:
+Each AI call costs tokens/credits. Use 3-AI for decisions that justify the cost:
 - Architectural decisions
 - Launch readiness reviews
 - Security/compliance reviews

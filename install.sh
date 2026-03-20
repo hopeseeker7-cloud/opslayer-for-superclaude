@@ -64,7 +64,7 @@ if [ -z "$SCRIPT_DIR" ] || [ ! -d "$SCRIPT_DIR/modes" ]; then
 fi
 
 # Verify expected directories exist
-EXPECTED_DIRS=(modes workflows presets tutorials playbooks)
+EXPECTED_DIRS=(modes workflows presets docs playbooks)
 for d in "${EXPECTED_DIRS[@]}"; do
     if [ ! -d "$SCRIPT_DIR/$d" ]; then
         echo "ERROR: Missing directory '$d' in $SCRIPT_DIR"

@@ -74,7 +74,7 @@ Uninstall removes **only files tracked in the install manifest** — your origin
 
 | Extension | Description |
 |-----------|-------------|
-| **3AI Orchestration** | Run Claude + GPT + Gemini in parallel with assigned roles. Fan out research, converge on decisions. |
+| **3-AI Orchestration** | Run Claude + GPT + Gemini in parallel with assigned roles. Fan out research, converge on decisions. |
 | **Ship Fast** | MVP-focused mode. Scope discipline enforced. Build only what ships. No feature creep. |
 
 ### Workflows
@@ -99,7 +99,7 @@ Complete project recipes — end-to-end workflows tested on real production proj
 | **Trading System Build** | Complete guide for automated trading systems: backtesting setup, paper trading validation, live deploy safety gates, risk monitoring. |
 | **3-AI Cross-Review** | Production-grade 3-AI collaboration: Claude implements, GPT audits structure, Gemini reviews UX. Includes prompt templates and review checklists. |
 
-### Tutorials & Examples
+### Docs (Tutorials & Examples)
 
 | Resource | Description |
 |----------|-------------|
@@ -119,11 +119,13 @@ OpsLayer files install alongside SuperClaude. Nothing is overwritten.
 ├── RULES.md                   <- SuperClaude (untouched)
 ├── MODE_Brainstorming.md      <- SuperClaude (untouched)
 ├── ...
-├── MODE_3AI_Orchestration.md  <- OpsLayer (NEW)
+├── MODE_3-AI_Orchestration.md <- OpsLayer (NEW)
 ├── MODE_Ship_Fast.md          <- OpsLayer (NEW)
 ├── WORKFLOW_new_project.md    <- OpsLayer (NEW)
 ├── PRESET_korean_dev.md       <- OpsLayer (NEW)
-└── TUTORIAL_first_project.md  <- OpsLayer (NEW)
+├── TUTORIAL_first_project.md  <- OpsLayer (NEW, in docs/)
+├── example_new_project.md    <- OpsLayer (NEW, in docs/)
+└── example_3-AI_session.md   <- OpsLayer (NEW, in docs/)
 ```
 
 ---

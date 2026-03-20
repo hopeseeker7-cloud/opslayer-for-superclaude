@@ -18,8 +18,19 @@
 - **README.md**: Install/uninstall docs now match actual script behavior
 - **README.md**: FAQ corrected (manifest-based uninstall, rollback mention)
 
+### Changed (P2 — Cleanup & Consistency)
+- Unified naming: all `3AI`/`3ai` → `3-AI` (filenames, headings, prose)
+- Renamed `MODE_3AI_Orchestration.md` → `MODE_3-AI_Orchestration.md`
+- Renamed `PLAYBOOK_3ai_cross_review.md` → `PLAYBOOK_3-AI_cross_review.md`
+- Renamed `example_3ai_session.md` → `example_3-AI_session.md`
+- Merged `tutorials/` + `examples/` → `docs/` (single directory for non-installable content)
+- Updated `install.sh` directory list (`tutorials` → `docs`)
+- Removed per-file "Part of OpsLayer" boilerplate from tutorial
+- Updated README file tree and section names
+
 ### Removed
 - `assets/scripts/record_*.sh` — unreferenced demo scripts with syntax errors
+- `tutorials/` and `examples/` directories (merged into `docs/`)
 
 ## [0.2.0] - 2026-03-19
 

@@ -2,13 +2,11 @@
 
 **Purpose**: Step-by-step guide to starting a project using SuperClaude and OpsLayer extensions.
 
-**Part of**: OpsLayer for SuperClaude (independent add-on)
-
 ## Prerequisites
 
 - Claude Code installed and working
 - SuperClaude installed (`~/.claude/PRINCIPLES.md` exists)
-- OpsLayer installed (`~/.claude/MODE_3AI_Orchestration.md` exists)
+- OpsLayer installed (`~/.claude/MODE_3-AI_Orchestration.md` exists)
 
 ## Scenario
 
@@ -120,13 +118,13 @@ After launch, exit Ship Fast mode and plan v0.2 based on real usage data.
 
 1. **Always start with the protocol.** It takes 5 minutes and saves hours of rework.
 2. **Ship Fast mode is temporary.** Use it for the initial push, then switch to normal mode.
-3. **For complex projects**, use 3AI Orchestration to get multiple perspectives on the project definition before implementation.
+3. **For complex projects**, use 3-AI Orchestration to get multiple perspectives on the project definition before implementation.
 4. **Keep the root case simple.** If you can't describe it in one sentence, your project scope is too big for an MVP.
 
 ---
 
 ## Next Steps
 
-- Try the **3AI Orchestration** mode for a project that needs multiple perspectives
+- Try the **3-AI Orchestration** mode for a project that needs multiple perspectives
 - Explore SuperClaude's built-in modes: Brainstorming, Introspection, Token Efficiency
 - For advanced workflows, check out the playbooks: Solo SaaS Launch, Trading System Build, 3-AI Cross-Review

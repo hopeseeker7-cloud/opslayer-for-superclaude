@@ -82,5 +82,5 @@ Exit Ship Fast mode when:
 
 Works alongside other SuperClaude modes:
 - **+ Brainstorming**: Use brainstorming to define scope, then Ship Fast to execute
-- **+ 3AI Orchestration**: Use 3AI for the "what to build" decision, then Ship Fast for the build
+- **+ 3-AI Orchestration**: Use 3-AI for the "what to build" decision, then Ship Fast for the build
 - **+ Task Management**: Ship Fast defines the tasks, Task Management tracks them

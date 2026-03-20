@@ -22,28 +22,49 @@ Everything is open-source. No paywalls, no gated features.
 
 ## Quick Start (30 seconds)
 
+### Option A: One-line install (recommended)
+
 ```bash
-# 1. Verify SuperClaude is installed
-ls ~/.claude/PRINCIPLES.md
-
-# 2. Install OpsLayer
+# Downloads the repo automatically, installs extensions, cleans up
 curl -sL https://raw.githubusercontent.com/hopeseeker7-cloud/opslayer-for-superclaude/master/install.sh | bash
+```
 
-# 3. Start Claude Code and try it
+### Option B: Clone and install
+
+```bash
+git clone https://github.com/hopeseeker7-cloud/opslayer-for-superclaude.git
+cd opslayer-for-superclaude
+bash install.sh
+```
+
+### After install:
+
+```bash
 claude
-# Type: "use 3ai orchestration mode" or "use ship fast mode"
+# Type: "use 3-AI orchestration mode" or "use ship fast mode"
 ```
 
 ### What install.sh does:
-1. Checks SuperClaude v4.0+ is installed
-2. Backs up `~/.claude/` to `~/.claude/backups/pre-opslayer-{date}/`
-3. Copies OpsLayer files (NO existing files are overwritten)
-4. Prints installed extensions
+1. Downloads the repository if run via `curl | bash` (requires `git`)
+2. Checks SuperClaude v4.0+ is installed
+3. Backs up `~/.claude/*.md` to `~/.claude/backups/pre-opslayer-{date}/`
+4. Copies OpsLayer files (**no existing files are overwritten**)
+5. Writes a manifest of installed files for safe uninstall
+6. Rolls back automatically if any step fails
 
 ### Uninstall:
+
 ```bash
-curl -sL https://raw.githubusercontent.com/hopeseeker7-cloud/opslayer-for-superclaude/master/uninstall.sh | bash
+# Interactive
+git clone https://github.com/hopeseeker7-cloud/opslayer-for-superclaude.git
+cd opslayer-for-superclaude
+bash uninstall.sh
+
+# Non-interactive
+bash uninstall.sh -y
 ```
+
+Uninstall removes **only files tracked in the install manifest** — your original config is never touched.
 
 ---
 
@@ -134,13 +155,13 @@ Have ideas? [Open an issue](https://github.com/hopeseeker7-cloud/opslayer-for-su
 No. OpsLayer is an independent add-on by a SuperClaude power user.
 
 **Will this break my SuperClaude setup?**
-No. OpsLayer only adds new files. Your existing config is backed up and never modified.
+No. OpsLayer only adds new files. Your existing config is backed up and never modified. If installation fails partway, it rolls back automatically.
 
-**Do I need GPT/Gemini API keys for 3AI mode?**
-The 3AI Orchestration mode works with Codex CLI (GPT) and Gemini CLI. You need those CLIs installed separately if you want multi-AI coordination.
+**Do I need GPT/Gemini API keys for 3-AI mode?**
+The 3-AI Orchestration mode works with Codex CLI (GPT) and Gemini CLI. You need those CLIs installed separately if you want multi-AI coordination.
 
 **What if I uninstall?**
-Run the uninstall script. It removes only OpsLayer files and restores your backup.
+Run `bash uninstall.sh`. It reads the install manifest and removes **only** the files OpsLayer installed. Your backup directory is preserved at `~/.claude/backups/pre-opslayer-*/`.
 
 ---
 

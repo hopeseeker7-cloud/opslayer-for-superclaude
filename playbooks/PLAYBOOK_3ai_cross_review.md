@@ -24,7 +24,7 @@ SETUP → REVIEW PATTERNS → PROMPT ENGINEERING → WORKFLOW INTEGRATION → EX
 |------|---------|--------|
 | Claude Code | `npm i -g @anthropic-ai/claude-code` | `claude --version` |
 | Codex CLI (GPT) | `npm i -g @openai/codex` | `codex --version` |
-| Gemini CLI | `npm i -g @anthropic-ai/gemini-cli` | `gemini --version` |
+| Gemini CLI | `npm i -g @google/gemini-cli` | `gemini --version` |
 
 **Windows note**: Codex CLI requires `.cmd` extension in bash:
 ```bash
